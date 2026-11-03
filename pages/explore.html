@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="以山水长卷为入口，在文化阅读、互动任务与印章收集中，展开一场认识古城的旅程。">
+  <title>游戏探索｜雾散荆州</title>
+  <!-- 二级页面从 pages 目录返回上一级，复用同一份样式。 -->
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="../index.html" aria-label="雾散荆州首页"><span class="brand-seal" aria-hidden="true">荆</span>雾散荆州</a>
+    <nav class="primary-nav" aria-label="顶部导航">
+      <a href="../index.html">首页</a>
+      <div class="nav-group">
+        <div class="nav-heading"><a href="culture.html">荆州文化</a><button class="nav-toggle" type="button" aria-label="展开荆州文化子菜单" aria-expanded="false" aria-controls="menu-culture" hidden>⌄</button></div>
+        <ul class="nav-submenu" id="menu-culture">
+          <li><a href="landmarks.html">文化地标</a></li>
+          <li><a href="history.html">历史文化</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <div class="nav-heading"><a href="explore.html" aria-current="page">游戏探索</a><button class="nav-toggle" type="button" aria-label="展开游戏探索子菜单" aria-expanded="false" aria-controls="menu-explore" hidden>⌄</button></div>
+        <ul class="nav-submenu" id="menu-explore">
+          <li><a href="introduction.html">游戏介绍</a></li>
+          <li><a href="guide.html">玩法指南</a></li>
+        </ul>
+      </div>
+      <div class="nav-group">
+        <div class="nav-heading"><a href="experience.html">互动体验</a><button class="nav-toggle" type="button" aria-label="展开互动体验子菜单" aria-expanded="false" aria-controls="menu-experience" hidden>⌄</button></div>
+        <ul class="nav-submenu" id="menu-experience">
+          <li><a href="play.html">在线游玩</a></li>
+        </ul>
+      </div>
+    </nav>
+    <span class="header-note">荆楚文化 · 互动长卷</span>
+  </header>
+  <section class="site-search" aria-label="站内搜索" hidden>
+    <form class="search-form" role="search">
+      <label for="site-query">站内搜索</label>
+      <div class="search-controls"><input id="site-query" name="q" type="search" maxlength="60" placeholder="搜索地标、文化或玩法" aria-describedby="search-status" autocomplete="off"><button type="submit">搜索</button></div>
+    </form>
+    <div class="search-output">
+      <p id="search-status" role="status" aria-live="polite">输入地标、文化主题或玩法关键词，寻找感兴趣的内容。</p>
+      <ul id="search-results" aria-label="搜索结果" hidden></ul>
+    </div>
+  </section>
+  <main id="main" class="explore-page">
+<section class="explore-opening"><div class="section"><nav class="breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span aria-hidden="true">›</span><span aria-current="page">游戏探索</span></nav><p class="eyebrow">一卷山水，一段旅程 / EXPLORE</p><h1>游戏探索</h1><p class="page-lead">《雾散荆州》是一款以互动长卷为载体的荆楚文化探索游戏。选一处地标，让故事从这里展开。</p></div><figure class="exhibit-image"><img src="../assets/images/jingzhou-panorama.png" alt="雾散荆州山水长卷游戏画面" width="1672" height="940" decoding="async"><figcaption>山水长卷 · 四境同游</figcaption></figure></section>
+<section class="section gameplay-intro"><div><p class="eyebrow">01 / 山水长卷</p><h2>自由选择，<br>走近文化现场。</h2></div><div class="exhibit-text"><p>四处地标被组织在同一幅长卷中。点击建筑或题签选择站点，经过角色行进与场景转换，进入地标近景。</p><p>旅途中可以暂停或跳过赶路；抵达后阅读文化文字，再进入对应的互动任务。探索顺序可以由玩家自行选择。</p><a class="text-link" href="experience.html">查看体验流程 →</a></div></section>
+<section class="task-showcase"><div class="section"><p class="eyebrow">02 / 文化任务</p><h2>让文化，进入一次选择。</h2><figure class="exhibit-image"><img src="../assets/images/game/zhangjuzheng-desk-interface.jpg" alt="张居正票拟书案游戏场景" loading="lazy" width="1780" height="405" decoding="async"><figcaption>案前票拟 · 书案场景</figcaption></figure><div class="task-descriptions"><article><span>关羽祠 / 解谜</span><h3>疏通棋局，思考抉择</h3><p>移动华容道棋子，疏通出口，在解谜中回应忠义主题。</p></article><article><span>宾阳楼 / 守城</span><h3>识别目标，守护古城</h3><p>按关卡提示识船与守城，在观察和操作中完成挑战。</p></article><article><span>张居正 / 票拟</span><h3>阅读奏报，做出选择</h3><p>结合奏报选择策略、提笔票拟，查看反馈与历史小笺。</p></article><article><span>博物馆 / 修复</span><h3>观察细节，接续传承</h3><p>浏览展柜，按章节提示观察文物、完成修复流程。</p></article></div></div></section>
+<section class="section stamp-showcase"><figure class="exhibit-image"><img src="../assets/images/game/guanyu.png" alt="关羽祠游戏插画" loading="lazy" width="1376" height="768" decoding="async"><figcaption>忠义之境 · 关羽祠游戏插画</figcaption></figure><div class="exhibit-text"><p class="eyebrow">03 / 文化印章</p><h2>每次发现，<br>都有回响。</h2><p>原游戏用文化印记记录完成的站点。按挑战流程领取印记并返回长卷后，对应区域的迷雾散去，探索成果变得可见。</p><p>保存探索进度，随时重访喜欢的站点，让旅程在下一次相遇中延续。</p><div class="mark-names"><span>忠义</span><span>古城</span><span>革新</span><span>传承</span></div></div></section>
+<section class="section preview-section" aria-labelledby="preview-title">
+<p class="eyebrow">继续探索 / DISCOVER MORE</p><h2 id="preview-title">继续展开这段旅程</h2>
+<div class="preview-grid">
+<a class="preview-card preview-link" href="introduction.html"><span class="small-label">游戏介绍 / 进入页面 ↗</span><h3>游戏介绍</h3><p>了解创作背景、定位与探索与印记。</p></a>
+<a class="preview-card preview-link" href="guide.html"><span class="small-label">玩法指南 / 进入页面 ↗</span><h3>玩法指南</h3><p>按步骤认识操作、任务与印记领取流程。</p></a>
+</div></section>
+  </main>
+  <footer class="site-footer"><div><a class="brand" href="../index.html">雾散荆州</a><p>一卷山水，读一座城。</p></div><div class="footer-meta"><p>雾散荆州 · 荆楚文化探索</p></div></footer>
+  <button class="back-to-top" type="button" aria-label="返回页面顶部" hidden>↑ 返回顶部</button>
+</body>
+</html>
